@@ -12,7 +12,12 @@
     "lint:fix": "eslint --fix --ext .js,.ts,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@nuxt/image": "^1.10.0",
+    "@nuxtjs/i18n": "^9.4.0",
+    "@pinia/nuxt": "^0.10.1",
+    "axios": "^1.8.4",
     "nuxt": "^3.16.1",
+    "pinia": "^3.0.1",
     "sass": "^1.86.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
@@ -20,11 +25,13 @@
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@nuxtjs/eslint-module": "^4.1.0",
+    "@vite-pwa/nuxt": "^0.10.6",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^5.2.5",
     "prettier": "^3.5.3",
+    "rollup-plugin-visualizer": "^5.14.0",
     "typescript": "^5.3.3"
   }
 }
